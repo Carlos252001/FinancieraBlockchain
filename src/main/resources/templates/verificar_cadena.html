@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Verificación de Cadena</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Verificación de Integridad de la Cadena</h2>
+
+    <div th:if="${esValida}" class="alert alert-success text-center">
+        ✅ La cadena es válida y no ha sido alterada.
+    </div>
+    <div th:unless="${esValida}" class="alert alert-danger text-center">
+        ❌ La cadena ha sido modificada o contiene errores.
+    </div>
+
+    <div class="text-center mt-4">
+        <a href="/bloques" class="btn btn-secondary">Volver a la Lista de Bloques</a>
+    </div>
+</div>
+</body>
+</html>
