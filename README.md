@@ -1,6 +1,4 @@
-¡Perfecto! Vamos a escribir un **README.md profesional** para tu proyecto del examen de *Taller de Aplicaciones Distribuidas*. Este documento describe tu aplicación, cómo funciona y cómo levantarla localmente. Puedes copiarlo tal cual a tu archivo `README.md` del repositorio GitHub.
 
----
 
 ## BlockChain Financiera - Registro de Préstamos a PYMES
 
